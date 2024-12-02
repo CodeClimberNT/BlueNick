@@ -1,0 +1,7 @@
+baseURL = 'https://codeclimbernt.github.io/HowTo'
+languageCode = 'en-us'
+title = 'How To Nick'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
