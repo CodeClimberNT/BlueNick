@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Set Default Language :: How To Nick</title><link>https://codeclimbernt.github.io/HowTo/nvim/set-default-language/index.html</link><description>Go to your neovim configuration folder, based on your os will be in one of the following path:
+Windows %USERPROFILE%\AppData\Local\nvim Linux / MacOS ~/.config/nvim Inside this folder create, if not already present, the init.lua file and add/change the following command:
+vim.cmd("language en_US") For other languages, change the en_US to your preferred locale
+Note If I wanted to set It in Italian, I would write vim.cmd("language it_IT")</description><generator>Hugo</generator><language>en-us</language><lastBuildDate/><atom:link href="https://codeclimbernt.github.io/HowTo/nvim/set-default-language/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

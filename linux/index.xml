@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux :: How To Nick</title><link>https://codeclimbernt.github.io/HowTo/linux/index.html</link><description/><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 02 Dec 2024 14:58:21 +0100</lastBuildDate><atom:link href="https://codeclimbernt.github.io/HowTo/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Mount DVD or CDs</title><link>https://codeclimbernt.github.io/HowTo/linux/mount-dvd-cd/index.html</link><pubDate>Mon, 02 Dec 2024 14:58:21 +0100</pubDate><guid>https://codeclimbernt.github.io/HowTo/linux/mount-dvd-cd/index.html</guid><description>Just mount the disk as it was an external drive:
+mount /media/cdrom after you are done, unmount like normal
+umount /media/cdrom Note If cdrom doesn’t work try cdrecorder or dvdrecorder
+source</description></item></channel></rss>

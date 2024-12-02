@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scp :: How To Nick</title><link>https://codeclimbernt.github.io/HowTo/cli/scp/index.html</link><description>Considering two system: System A and System B. You are logged inside one of them. Consider this rule for copying file(s) between ssh
+scp &lt;source> &lt;destination>
+The system you are NOT logged into will prepend username@system_name: to the absolute path
+So If you want to copy some files System B ⇒ System A while you are logged in System B, you have to prepend in the &lt;destination> parameter
+thus resulting in a command like this scp /path/to/file username@system_name:/path/to/destination</description><generator>Hugo</generator><language>en-us</language><lastBuildDate/><atom:link href="https://codeclimbernt.github.io/HowTo/cli/scp/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Set Default Version :: How To Nick</title><link>https://codeclimbernt.github.io/HowTo/python/set-default-version/index.html</link><description>Windows Solution locate the Python Launcher folder
+Usually at C:\Users\[USERNAME]\AppData\Local\Programs\Python\Launcher
+Inside you should see a py.exe and a pyw.exe
+Create two additional files named py.ini and pyw.ini, so that in that folder you should have at least those files:
+py.exe py.ini pyw.exe pyw.ini Now inside py.ini and pyw.ini paste the following lines:
+[defaults] python=3.12 In this case 3.12 is the preferred python version you’d like to use
+source</description><generator>Hugo</generator><language>en-us</language><lastBuildDate/><atom:link href="https://codeclimbernt.github.io/HowTo/python/set-default-version/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
