@@ -1,7 +1,7 @@
 +++
 title = "Change Mail Default Order"
 draft = false
-categories = [ "mail", "thunderbird" ]
+categories = [ ]
 +++
 
 

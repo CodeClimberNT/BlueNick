@@ -1,6 +1,6 @@
 +++
 date = '2024-12-02T14:29:37+01:00'
-draft = true
+draft = false
 title = 'Settings Managed by Organization'
 +++
 

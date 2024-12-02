@@ -1,6 +1,6 @@
 +++
 date = '2024-12-02T14:28:53+01:00'
-draft = true
+draft = false
 title = 'Group Policy'
 +++
 

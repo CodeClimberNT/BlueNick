@@ -1,6 +1,6 @@
 +++
 date = '2024-12-02T14:52:59+01:00'
-draft = true
+draft = false
 title = 'Update Images'
 +++
 
@@ -32,3 +32,5 @@ docker image prune -f
 
 > [!Warning]
 > This command will remove all unused image -> all images not used in running container!
+
+[source](https://stackoverflow.com/a/49316987/14604627)

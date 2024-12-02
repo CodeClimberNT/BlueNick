@@ -1,6 +1,6 @@
 +++
 date = '2024-12-02T14:37:43+01:00'
-draft = true
+draft = false
 title = 'Python'
 +++
 
