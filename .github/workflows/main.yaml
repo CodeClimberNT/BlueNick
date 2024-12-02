@@ -1,4 +1,4 @@
-name: Build Pages
+name: Hugo Pages
 
 on:
     push:
@@ -25,10 +25,10 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          personal_token: ${{ secrets.HUGO }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           keep_files: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: ${{ github.event.head_commit.message }}
+          # commit_message: ${{ github.event.head_commit.message }}
           publish_branch: main
