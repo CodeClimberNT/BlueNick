@@ -1,0 +1,47 @@
+baseURL = "https://bluenick.org/"
+languageCode = "en-us"
+title = "Nick's Blog"
+theme = "hextra"
+
+enableInlineShortcodes = true
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[markup.highlight]
+    noClasses = false
+
+
+[[menu.main]]
+    weight = 1
+    name = "Home"
+    pageRef = "/"
+
+[[menu.main]]
+    weight = 2
+    name = "Documentation"
+    pageRef = "/docs"
+
+[[menu.main]]
+    weight = 3
+    name = "Blog"
+    pageRef = "/blog/"
+
+[[menu.main]]
+    weight = 4
+    name = "Projects"
+    pageRef = "/projects/"
+
+[[menu.main]]
+    weight = 5
+    name = "Search"
+    params = { type = "search" }
+
+[[menu.main]]
+    weight = 6
+    name = "GitHub"
+    url = "https://github.com/CodeClimberNT"
+    params = { icon = "github" }
+
+[services.googleAnalytics]
+    ID = "G-DSWRWCNZ6C"
