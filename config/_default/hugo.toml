@@ -1,4 +1,4 @@
-baseURL = 'howto.bluenick.org'
+baseURL = 'https://howto.bluenick.org/'
 languageCode = 'en-us'
 title = 'How To'
 theme = 'hugo-theme-relearn'
