@@ -1,11 +1,10 @@
 +++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+date = "2024-12-02T13:58:09+01:00"
+title = "Thunderbird"
 draft = false
-categories = [ ]
 slug = "change-mail-default-order"
-date = "{{ .Date }}"
+categories = [ ]
 +++
-
 
 In the **Settings**, search for `Config Editor` and click the button *Config Editor...*
 

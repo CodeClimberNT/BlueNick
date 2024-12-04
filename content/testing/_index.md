@@ -1,14 +1,16 @@
 +++
-date = '{{ .Date }}'
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-draft = true
-slug = '{{ .File.ContentBaseName }}'
+date = '2024-12-04T09:41:51+01:00'
+title = 'Testing'
+draft = false
+slug = 'testing'
 keywords = [ ]
 categories = [ ]
 tags = [ ]
 +++
 
-## Overview
+## Hello This is a testing page! If you are seeing this lucky you
+
+Anyway in a few moment this page will be removed, D:
 
 Description of the guide goes here
 
