@@ -1,8 +1,8 @@
 +++
-title = "{{ replace .File.ContentBaseName "-" " " | title }}"
-date = "{{ .Date }}"
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+date = '{{ .Date }}'
 draft = false
-slug = "{{ .File.ContentBaseName }}"
+slug = '{{ .File.ContentBaseName }}'
 keywords = []
 categories = []
 tags = []
@@ -28,5 +28,5 @@ Description of the guide goes here
 
 ## Reference
 
-[Source](URL_TO_SOURCE)
-[Documentation](URL_TO_DOCS)
+[Source](404)
+[Documentation](404)
