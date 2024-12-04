@@ -1,5 +1,5 @@
-baseURL = 'https://codeclimbernt.github.io/HowTo'
+baseURL = 'howto.bluenick.org'
 languageCode = 'en-us'
-title = 'How To Nick'
+title = 'How To'
 theme = 'hugo-theme-relearn'
 
