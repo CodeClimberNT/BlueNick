@@ -1,7 +1,8 @@
 +++
-date = '2024-12-02T14:45:10+01:00'
+date = "2024-12-02T14:45:10+01:00"
 draft = false
-title = 'Set Default Language'
+title = "Set Default Language"
+slug = "set-default-language"
 +++
 
 Go to your neovim configuration folder, based on your os will be in one of the following path:

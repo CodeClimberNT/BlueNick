@@ -1,7 +1,8 @@
 +++
-date = '2024-12-02T14:29:37+01:00'
+date = "2024-12-02T14:29:37+01:00"
 draft = false
-title = 'Settings Managed by Organization'
+title = "Settings Managed by Organization"
+slug = "settings-managed-organization"
 +++
 
 ## Read Carefully

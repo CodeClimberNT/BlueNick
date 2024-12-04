@@ -1,7 +1,8 @@
 +++
-date = '2024-12-02T14:26:58+01:00'
+date = "2024-12-02T14:26:58+01:00"
 draft = false
-title = 'Windows'
+title = "Windows"
+slug = "windows"
 +++
 
 Welcome! Here you can find all my knowledge to fix some *quirks* of Windows!

@@ -1,7 +1,9 @@
 +++
-title = "Change Mail Default Order"
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 draft = false
 categories = [ ]
+slug = "change-mail-default-order"
+date = "{{ .Date }}"
 +++
 
 

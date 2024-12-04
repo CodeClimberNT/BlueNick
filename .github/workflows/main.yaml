@@ -1,10 +1,10 @@
 name: Build Pages
 
 on:
-    push:
-      branches:
-        - main
-    pull_request:
+    # push:
+    #   branches:
+    #     - main
+    # pull_request:
     workflow_dispatch:
 
 jobs:
@@ -37,11 +37,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           personal_token: ${{ secrets.HUGO }}
-          # keep_files: true
-          # user_name: 'github-actions[bot]'
-          # user_email: 'github-actions[bot]@users.noreply.github.com'
-          # commit_message: ${{ github.event.head_commit.message }}
-          # publish_branch: main

@@ -1,7 +1,8 @@
 +++
-date = '2024-12-02T14:52:59+01:00'
+date = "2024-12-02T14:52:59+01:00"
 draft = false
-title = 'Update Images'
+title = "Update Images"
+slug = "update-images"
 +++
 
 

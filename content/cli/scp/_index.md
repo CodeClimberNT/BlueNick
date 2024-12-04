@@ -1,7 +1,8 @@
 +++
-date = '2024-12-02T15:01:41+01:00'
+date = "2024-12-02T15:01:41+01:00"
 draft = false
-title = 'Scp'
+title = "Scp"
+slug = "cli/scp"
 +++
 
 Considering two system: `System A` and `System B`. You are logged inside one of them.
