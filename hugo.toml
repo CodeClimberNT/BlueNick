@@ -19,8 +19,8 @@ enableInlineShortcodes = true
 
 [[menu.main]]
     weight = 2
-    name = "Documentation"
-    pageRef = "/docs"
+    name = "Wiki"
+    pageRef = "/wiki"
 
 [[menu.main]]
     weight = 3
