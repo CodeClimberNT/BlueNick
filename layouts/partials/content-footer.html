@@ -1,0 +1,28 @@
+{{ with .Page }}
+<footer class="footline">
+    <div class="footer-wrapper">
+        {{ if not .Params.notShowAdsense }}
+        {{ partial "adsense.html" . }}
+        {{ end }}
+        <div class="footer-meta">
+            {{ with .GitInfo }}
+            <div class="git-info">
+                {{T "Last-updated-on"}} {{ .AuthorDate.Format "02/01/2006" }}
+            </div>
+            {{ end }}
+            {{ with .Params.author }}
+            <div class="author">
+                {{ T "Author" }}: {{ . }}
+            </div>
+            {{ end }}
+            {{ with .Params.categories }}
+            <div class="categories">
+                {{ range . }}
+                <a href="{{ " categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</footer>
+{{ end }}

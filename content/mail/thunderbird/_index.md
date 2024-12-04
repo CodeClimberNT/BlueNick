@@ -4,4 +4,5 @@ title = "Thunderbird"
 draft = false
 slug = "thunderbird"
 categories = [ ]
+type = "chapter"
 +++

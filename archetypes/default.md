@@ -1,11 +1,12 @@
 +++
-date = '{{ .Date }}'
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-draft = true
-slug = '{{ .File.ContentBaseName }}'
-keywords = [ ]
-categories = [ ]
-tags = [ ]
+title = "{{ replace .File.ContentBaseName "-" " " | title }}"
+date = "{{ .Date }}"
+draft = false
+slug = "{{ .File.ContentBaseName }}"
+keywords = []
+categories = []
+tags = []
+notShowAdsense = false
 +++
 
 ## Overview
@@ -28,3 +29,8 @@ Description of the guide goes here
 
 [Source](URL_TO_SOURCE) <!-- Replace URL_TO_SOURCE with the actual URL -->
 [Documentation](URL_TO_DOCS) <!-- Optional: Add if there's official documentation -->
+
+
+{{if not (.Params.notShowAdsense) }}
+   {{ partial "adsense.html" . }}
+{{ end }}

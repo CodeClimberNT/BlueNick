@@ -1,0 +1,5 @@
+[Params]
+  author = "Your Name"
+  description = "A brief description of your site."
+  logo = "/images/logo.png"
+  enableAdsense = true
