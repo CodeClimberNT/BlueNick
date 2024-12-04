@@ -18,13 +18,15 @@ Description of the guide goes here
 2. Second step
 3. Third step
 
-> [!Note]  
-> Add any important notes here
+{{< callout type="info" >}}
+   Add any important notes here
+{{< /callout >}}
 
-> [!Warning]  
-> Add any warnings here if needed
+{{< callout type="warning" >}}
+   Add any warnings here if needed
+{{< /callout >}}
 
 ## Reference
 
-[Source](URL_TO_SOURCE) <!-- Replace URL_TO_SOURCE with the actual URL -->
-[Documentation](URL_TO_DOCS) <!-- Optional: Add if there's official documentation -->
+[Source](URL_TO_SOURCE)
+[Documentation](URL_TO_DOCS)
