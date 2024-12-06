@@ -17,7 +17,7 @@ dateFormat = "January 2, 2006"
     enable = true
     type = "giscus"
     [Params.comments.giscus]
-        repo = "CodeClimberNT/wiki-comment"
+        repo = "CodeClimberNT/bluenick-comment"
         repoId = "R_kgDONZxuTQ"
         category = "General"
         categoryId = "DIC_kwDONZxuTc4Ck-Fo"
