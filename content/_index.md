@@ -6,6 +6,7 @@ slug = "home"
 keywords = ["wiki", "tech", "guides", "portfolio"]
 categories = ["main"]
 tags = ["home"]
+comments = true
 +++
 
 # Welcome → [Wiki Easy Access](wiki)

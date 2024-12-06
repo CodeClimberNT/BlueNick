@@ -6,6 +6,7 @@ slug = '{{ .File.ContentBaseName }}'
 keywords = []
 categories = []
 tags = []
+disableComments = false
 +++
 
 ## Overview

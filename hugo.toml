@@ -13,24 +13,35 @@ enableInlineShortcodes = true
 displayUpdatedDate = true
 dateFormat = "January 2, 2006"
 
-[Params]
-    giscusTheme = "preferred_color_scheme"
-    disableComments = false
+[Params.comments]
+    enable = true
+    type = "giscus"
+    [Params.comments.giscus]
+        repo = "CodeClimberNT/wiki-comment"
+        repoId = "R_kgDONZxuTQ"
+        category = "General"
+        categoryId = "DIC_kwDONZxuTc4Ck-Fo"
+        mapping = "pathname"
+        strict = "0"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "top"
+        lang = "en"
 
-    [Params.navbar]
-        displayTitle = false
-        displayLogo = true
-        [Params.navbar.logo]
-            path = "favicon.svg"
-            dark = "favicon.svg"
-            link = "/"
-            width = "32px"
-            height = "32px"
+[Params.navbar]
+    displayTitle = false
+    displayLogo = true
+    [Params.navbar.logo]
+        path = "favicon.svg"
+        dark = "favicon.svg"
+        link = "/"
+        width = "32px"
+        height = "32px"
 
-# Seems to be broken
-# [Params.editUrl]
-#     enable = true
-#     base = "https://github.com/CodeClimberNT/HowTo/edit/main/content/docs"
+        # Seems to be broken
+        # [Params.editUrl]
+        #     enable = true
+        #     base = "https://github.com/CodeClimberNT/HowTo/edit/main/content/docs"
 
 [Params.footer]
     enable = true
