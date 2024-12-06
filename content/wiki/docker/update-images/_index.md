@@ -20,7 +20,7 @@ docker compose up --force-recreate -d
 
 {{< callout type="info" >}}
    if you have made modification to the image, use also the `--build` command:
-{{< /callout >}}
+{{</ callout >}}
 
 ```terminal
 docker compose up --force-recreate --build -d
@@ -34,6 +34,8 @@ docker image prune -f
 
 {{< callout type="warning" >}}
    This command will remove all unused image -> all images not used in running container!
-{{< /callout >}}
+{{</ callout >}}
 
 [source](https://stackoverflow.com/a/49316987/14604627)
+
+{{< comments-invitation >}}

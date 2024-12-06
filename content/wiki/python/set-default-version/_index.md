@@ -16,7 +16,10 @@ Usually at:
 C:\Users\[USERNAME]\AppData\Local\Programs\Python\Launcher
 ```
 
-Where *[USERNAME]* is your username folder in Windows.
+{{<callout type="info">}}
+  [USERNAME] is your username folder in Windows.
+{{< /callout >}}
+
 
 Inside the Launcher folder you should see a structure similare to this:
 {{< filetree/container >}}
@@ -32,20 +35,28 @@ Create two additional files named `py.ini` and `pyw.ini`, so that in that folder
 
 {{< filetree/container >}}
   {{< filetree/folder name="Launcher" >}}
-  {{< filetree/file name="py.exe" >}}
-  {{< filetree/file name="py.ini" >}}
-  {{< filetree/file name="pyw.exe" >}}
-  {{< filetree/file name="pyw.ini" >}}
+    {{< filetree/file name="py.exe" >}}
+    {{< filetree/file name="py.ini" >}}
+    {{< filetree/file name="pyw.exe" >}}
+    {{< filetree/file name="pyw.ini" >}}
   {{< /filetree/folder  >}}
 {{< /filetree/container >}}
 
-Now inside **py.ini** and **pyw.ini** paste the following lines:
+
+
+Now inside **both** `py.ini` and `pyw.ini` paste the following lines:
 
 ```toml
 [defaults]
 python=3.12
 ```
 
-Where the value (this case **3.12**) is the preferred python version you'd like to use
+{{<callout type="info">}}
+  The value (this case **3.12**) is the preferred python version you'd like to use
+{{< /callout >}}
+
 
 [source](https://stackoverflow.com/questions/68121982/multiple-python-versions-installed-how-to-set-the-default-version-for-py-exe)
+
+
+{{< comments-invitation >}}

@@ -21,3 +21,5 @@ Of course, if you want to copy an entire folder, just use the -r flag
 `scp -r /path/to/folder username@system_name:/path/to/destination`
 
 [source](https://www.freecodecamp.org/news/scp-linux-command-example-how-to-ssh-file-transfer-from-remote-to-local/)
+
+{{< comments-invitation >}}

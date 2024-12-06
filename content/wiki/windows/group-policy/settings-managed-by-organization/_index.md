@@ -16,7 +16,7 @@ Anyway, if you have neither work account linked nor 3rd party antivirus try usin
 
 {{< callout type="warning" >}}
    SINCE THE GUIDE IS MODIFYING THE REGISTRY, DO A SYSTEM RESTORE POINT TO MITIGATE THE RISK OF DAMAGE!
-{{< /callout >}}
+{{</ callout >}}
 
 ## Modify the registry using CMD as Admin
 
@@ -42,3 +42,5 @@ reg delete "HKLM\Software\Microsoft\Policies" /f
 Then, close Command Prompt and **restart** (***don't*** shut down) your PC.
 
 [source](https://answers.microsoft.com/en-us/windows/forum/all/windows-11-some-of-these-settings-are-managed-by/d4cb2836-be2d-42c4-889f-6ece8c6de0e5)
+
+{{< comments-invitation >}}

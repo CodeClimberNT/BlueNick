@@ -21,13 +21,16 @@ Description of the guide goes here
 
 {{< callout type="info" >}}
    Add any important notes here
-{{< /callout >}}
+{{</ callout >}}
 
 {{< callout type="warning" >}}
    Add any warnings here if needed
-{{< /callout >}}
+{{</ callout >}}
 
 ## Reference
 
 [Source](404)
 [Documentation](404)
+
+
+{{< comments-invitation >}}

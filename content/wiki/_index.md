@@ -12,8 +12,11 @@ And so now I make my duty to document each solution I find for my problems whene
 
 {{< callout type="info" >}}
 I will try my best to add any source for each section, if you find some missing, please make an issue to the github repository to let me know!
-{{< /callout >}}
+{{</ callout >}}
 
 {{< callout type="warning" >}}
  The wiki is still in early development, every contribution is greatly accepted (both actual guide and visual formatting)
-{{< /callout >}}
+{{</ callout >}}
+
+
+{{< comments-invitation >}}

@@ -29,7 +29,7 @@ For other languages, change the _**en_US**_ to your preferred locale
 
 {{< callout type="info" >}}
    If I wanted to set It in Italian, I would write `vim.cmd("language it_IT")`
-{{< /callout >}}
+{{</ callout >}}
 
 If you're unsure about your locale code, you can find it in this [wikipedia page](https://en.wikipedia.org/wiki/Language_localisation#Language_tags_and_codes)
 

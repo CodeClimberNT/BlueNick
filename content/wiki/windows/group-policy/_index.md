@@ -7,3 +7,5 @@ slug = "group-policy"
 
 
 Here you can find all fixes related to group policy problems!
+
+{{< comments-invitation >}}

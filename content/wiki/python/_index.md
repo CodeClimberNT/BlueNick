@@ -6,3 +6,6 @@ slug = "python"
 +++
 
 Hello Pythonians! Here you can find all the relative guides for pythons!
+
+
+{{< comments-invitation >}}

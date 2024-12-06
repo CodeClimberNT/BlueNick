@@ -6,3 +6,6 @@ slug = "windows"
 +++
 
 Welcome! Here you can find all my knowledge to fix some *quirks* of Windows!
+
+
+{{< comments-invitation >}}
