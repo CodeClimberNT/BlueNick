@@ -46,8 +46,8 @@
       ]
     }
   ],
-  "frontMatter.preview.host": "http://localhost:1313/HowTo/",
-  "frontMatter.website.host": "https://codeclimbernt.github.io/HowTo/",
+  "frontMatter.preview.host": "http://localhost:1313/",
+  "frontMatter.website.host": "https:bluenick.org/",
   "frontMatter.framework.startCommand": "hugo server -DF",
   "frontMatter.content.pageFolders": [
     {

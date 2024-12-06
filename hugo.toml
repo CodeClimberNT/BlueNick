@@ -1,6 +1,6 @@
 baseURL = "https://bluenick.org/"
 languageCode = "en-us"
-title = "Nick's Blog"
+title = "Blue Nick"
 theme = "hextra"
 
 enableRobotsTXT = true
@@ -12,11 +12,35 @@ enableInlineShortcodes = true
 
 displayUpdatedDate = true
 dateFormat = "January 2, 2006"
-[footer]
+
+[Params]
+    giscusTheme = "preferred_color_scheme"
+    disableComments = false
+
+    [Params.navbar]
+        displayTitle = false
+        displayLogo = true
+        [Params.navbar.logo]
+            path = "favicon.svg"
+            dark = "favicon.svg"
+            link = "/"
+            width = "32px"
+            height = "32px"
+
+# Seems to be broken
+# [Params.editUrl]
+#     enable = true
+#     base = "https://github.com/CodeClimberNT/HowTo/edit/main/content/docs"
+
+[Params.footer]
     enable = true
     displayCopyright = true
     displayPoweredBy = false
     width = "normal"
+
+[Params.theme]
+    default = "system"
+    displayToggle = true
 
 [markup.goldmark.renderer]
     unsafe = true
@@ -26,33 +50,33 @@ dateFormat = "January 2, 2006"
 
 
 [[menu.main]]
-    weight = 1
     name = "Home"
+    weight = 1
     pageRef = "/"
 
 [[menu.main]]
-    weight = 2
     name = "Wiki"
+    weight = 2
     pageRef = "/wiki"
 
 [[menu.main]]
-    weight = 3
     name = "Blog"
+    weight = 3
     pageRef = "/blog/"
 
 [[menu.main]]
-    weight = 4
     name = "Projects"
+    weight = 4
     pageRef = "/projects/"
 
 [[menu.main]]
-    weight = 5
     name = "Search"
+    weight = 5
     params = { type = "search" }
 
 [[menu.main]]
-    weight = 6
     name = "GitHub"
+    weight = 6
     url = "https://github.com/CodeClimberNT"
     params = { icon = "github" }
 
