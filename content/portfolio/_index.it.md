@@ -7,6 +7,7 @@ keywords = []
 categories = []
 tags = []
 comments = false
+editURL.enable = false
 +++
 
 {{< cards cols="1" >}}
