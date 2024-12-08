@@ -1,11 +1,7 @@
 name: Build Pages
 
 on:
-    # push:
-    #   branches:
-    #     - main
-    # pull_request:
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -22,10 +18,10 @@ jobs:
         with:
           hugo-version: "latest"
           extended: true
-          
+
       - uses: actions/cache@v3
         with:
-          path: /home/runner/.cache/hugo_cache              
+          path: /home/runner/.cache/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-

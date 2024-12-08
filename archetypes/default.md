@@ -1,12 +1,12 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = '{{ .Date }}'
-draft = false
+draft = true
 slug = '{{ .File.ContentBaseName }}'
 keywords = []
 categories = []
 tags = []
-disableComments = false
+comments = true
 +++
 
 ## Overview

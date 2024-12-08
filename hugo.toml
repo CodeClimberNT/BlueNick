@@ -12,6 +12,15 @@ enableInlineShortcodes = true
 
 displayUpdatedDate = true
 dateFormat = "January 2, 2006"
+defaultContentLanguage = "en"
+
+[languages.en]
+    languageName = "English"
+    weight = 1
+[languages.it]
+    languageName = "Italiano"
+    weight = 2
+
 
 [Params.comments]
     enable = true
@@ -32,16 +41,15 @@ dateFormat = "January 2, 2006"
     displayTitle = false
     displayLogo = true
     [Params.navbar.logo]
-        path = "favicon.svg"
-        dark = "favicon.svg"
+        path = "favicon-32x32.ico"
+        dark = "favicon-32x32.ico"
         link = "/"
         width = "32px"
         height = "32px"
 
-        # Seems to be broken
-        # [Params.editUrl]
-        #     enable = true
-        #     base = "https://github.com/CodeClimberNT/HowTo/edit/main/content/docs"
+[Params.editUrl]
+    enable = true
+    base = "https://github.com/CodeClimberNT/BlueNick/edit/main/content"
 
 [Params.footer]
     enable = true
@@ -76,18 +84,23 @@ dateFormat = "January 2, 2006"
     pageRef = "/blog/"
 
 [[menu.main]]
-    name = "Projects"
+    name = "Portfolio"
     weight = 4
+    pageRef = "/portfolio/"
+
+[[menu.main]]
+    name = "Projects"
+    weight = 5
     pageRef = "/projects/"
 
 [[menu.main]]
     name = "Search"
-    weight = 5
+    weight = 6
     params = { type = "search" }
 
 [[menu.main]]
     name = "GitHub"
-    weight = 6
+    weight = 7
     url = "https://github.com/CodeClimberNT"
     params = { icon = "github" }
 
